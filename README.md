@@ -150,7 +150,9 @@ SQL queries were used to extract business insights such as:
 ---
 ## Dashboard Preview
 
-![Dashboard Preview](Dashboard_Screenshots/Dashboard_Overview.png)
+## Dashboard Preview
+
+<img src="Dashboard_Screenshots/Dashboard_Overview.png" width="1000">
 
 ## Key Insights
 
