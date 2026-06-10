@@ -149,13 +149,6 @@ SQL queries were used to extract business insights such as:
 
 ---
 
-## Dashboard Preview
-
-Add your dashboard screenshot below:
-
-![Dashboard Preview](Dashboard_Screenshots/Dashboard_Overview.png)
-
----
 
 ## Key Insights
 
