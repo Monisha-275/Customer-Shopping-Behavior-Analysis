@@ -148,7 +148,9 @@ SQL queries were used to extract business insights such as:
 - Subscription Status
 
 ---
-Dashboard_Overview.png
+## Dashboard Preview
+
+![Dashboard Preview](Dashboard_Screenshots/Dashboard_Overview.png)
 
 ## Key Insights
 
