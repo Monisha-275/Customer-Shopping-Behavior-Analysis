@@ -1,0 +1,62 @@
+CREATE DATABASE shoppingdb;
+USE shoppingdb;
+CREATE TABLE shopping_behavior(
+Customer_ID INT,
+Age INT,
+Gender VARCHAR(20),
+Item_Purchased VARCHAR(100),
+Category VARCHAR(50),
+Purchase_Amount INT,
+Location VARCHAR(50),
+Size VARCHAR(10),
+Color VARCHAR(20),
+Season VARCHAR(20),
+Review_Rating FLOAT,
+Subscription_Status VARCHAR(10),
+Shipping_Type VARCHAR(50),
+Discount_Applied VARCHAR(10),
+Promo_Code_Used VARCHAR(10),
+Previous_Purchases INT,
+Payment_Method VARCHAR(50),
+Frequency_of_Purchases VARCHAR(50)
+);
+SELECT SUM(Purchase_Amount)
+AS Total_Revenue
+FROM shopping_behavior;
+
+SELECT AVG(Purchase_Amount)
+AS Avg_Purchase
+FROM shopping_behavior;
+
+SELECT Category,
+SUM(Purchase_Amount) Revenue
+FROM shopping_behavior
+GROUP BY Category
+ORDER BY Revenue DESC;
+
+SELECT Gender,
+SUM(Purchase_Amount) Revenue
+FROM shopping_behavior
+GROUP BY Gender;
+
+SELECT Season,
+SUM(Purchase_Amount) Revenue
+FROM shopping_behavior
+GROUP BY Season;
+
+SELECT Payment_Method,
+COUNT(*) Customers
+FROM shopping_behavior
+GROUP BY Payment_Method;
+
+SELECT Subscription_Status,
+AVG(Purchase_Amount)
+FROM shopping_behavior
+GROUP BY Subscription_Status;
+
+SELECT Location,
+SUM(Purchase_Amount) Revenue
+FROM shopping_behavior
+GROUP BY Location
+ORDER BY Revenue DESC;
+
