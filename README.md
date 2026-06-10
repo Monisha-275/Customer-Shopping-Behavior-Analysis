@@ -180,28 +180,3 @@ Data Analytics Project using Python, SQL, and Power BI.
 
 ---
 
-## Repository Structure
-
-```text
-Customer-Shopping-Behavior-Analysis
-│
-├── Dataset
-│   └── shopping_behavior_updated.csv
-│
-├── Python
-│   └── shopping_analysis.ipynb
-│
-├── SQL
-│   └── shopping_queries.sql
-│
-├── PowerBI
-│   └── Shopping_Dashboard.pbix
-│
-├── Dashboard_Screenshots
-│   └── Dashboard_Overview.png
-│
-├── Report
-│   └── Project_Report.pdf
-│
-└── README.md
-```
